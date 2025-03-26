@@ -18,4 +18,4 @@ jobs:
     uses: curioswitch/cdktf-actions/.github/workflows/pr.yaml@c58ab526bff81207e69e2e94061b630baa67edf3
     with:
       gcp_project_id: ${{ vars.GCP_PROJECT_ID_DEV }}
-      gcp_project_number: ${{ vars.GCP_PROJECT_ID_DEV }}
+      gcp_project_number: ${{ vars.GCP_PROJECT_NUMBER_DEV }}

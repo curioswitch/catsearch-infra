@@ -1,8 +1,6 @@
 name: PR Build
 on:
   pull_request:
-    paths-ignore:
-      - stacks/sysadmin/**
   workflow_dispatch:
 
 permissions:

@@ -4,7 +4,7 @@ on:
     paths-ignore:
       - stacks/sysadmin/**
   workflow_dispatch:
-
+# Foo
 permissions:
   id-token: write
   pull-requests: write
